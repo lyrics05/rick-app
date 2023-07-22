@@ -10,7 +10,7 @@ const Nav = () => {
     
         <ul className={styles.navUlList}>
          <Link to={"/"}><li className={styles.liNav}>Home</li></Link> 
-         <Link to={"/favorites"}><li className={styles.liNav}>Favorites</li></Link> 
+         <Link to={"/detail"}><li className={styles.liNav}>Favorites</li></Link> 
         </ul>
       
     </div>
