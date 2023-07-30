@@ -2,6 +2,7 @@ import React, { useEffect, useState} from 'react'
 import Characters from '../characters/Characters'
 import Pagination from "../Pagination/Pagination"
 
+
  
 const Home = () => {
     const[characters, setCharacters] = useState([])
@@ -33,6 +34,7 @@ const Home = () => {
     <div>
         <Pagination prev={info.prev} next = {info.next} onPrev={onPrevious} onNext={onNext}/>
       <Characters characters={characters}/>
+
     </div>
   )
 }

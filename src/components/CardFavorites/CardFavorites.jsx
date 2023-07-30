@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+
 
 const CardFavorites = () => {
+  
+
+
   return (
     <div>
         
