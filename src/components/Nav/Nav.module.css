@@ -20,6 +20,9 @@
     color: white;
     font-size: 20px;
 }
+.liNav:active{
+    color: rgb(14, 228, 14);
+}
 
 a{
     text-decoration: none;

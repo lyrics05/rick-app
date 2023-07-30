@@ -4,7 +4,9 @@ import { UserContext } from '../../Contexts/UserProvider';
 import { useState } from 'react';
 
 const Detail = () => {
-  const [data,setData] = useState(useContext(UserContext));
+  const personajes = useContext(UserContext)
+  const [data,setData] = useState(personajes);
+  console.log("ESTO ES DATA EN DETAIL",data)
     let newData
    const handleDelete = (id) => {
     // Filtrar los elementos que tienen un id diferente al que se quiere eliminar
